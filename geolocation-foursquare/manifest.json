@@ -1,0 +1,10 @@
+{
+  "name": "FirefoxOS - Foursquare",
+  "version": "0.0.1",
+  "package_path": "/application.zip",
+  "developer": {
+    "url": "https://github.com/willyaranda/webapi-demos",
+    "name": "Telefonica Digital"
+  },
+  "size": 97428
+}

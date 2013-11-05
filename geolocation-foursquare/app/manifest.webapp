@@ -1,0 +1,18 @@
+{
+  "name": "Geolocation - foursquare",
+  "description": "What is around here?",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Guillermo López, Telefónica I+D",
+    "url": "https://github.com/willyaranda/webapi-demos"
+  },
+  "default_locale": "en",
+  "permissions": {
+    "geolocation": {},
+    "systemXHR": {}
+  }
+}
