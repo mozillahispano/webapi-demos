@@ -1,0 +1,30 @@
+{
+  "name": "webactivities app?",
+  "description": "an example of how to use web activities",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "César Carruitero",
+    "url": "https://github.com/ccarruitero"
+  },
+  "default_locale": "en",
+  "permissions": {
+    "device-storage:pictures":{ "access": "readwrite" }
+  },
+  "activities": {
+    "pick": {
+      "href": "/index.html",
+      "disposition": "inline",
+      "filters": {
+        "type": ["image/*","image/jpeg","image/png"]
+      },
+      "returnValue": true
+    },
+
+    "sms": {
+    }
+  }
+}
